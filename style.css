@@ -1,0 +1,93 @@
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+.wraper{
+	width:1200px;
+	height:auto;
+	border:1px solid #000;
+	margin:auto;
+}
+.header{
+	width:100%;
+	height:120px;
+	border:1px solid #000;
+}
+.menu{
+	background:#2567A4;
+	width:940px;
+	height:45px;
+	float: right;
+	
+}
+.menu ul{
+	width:100%;
+	height:40px;
+	list-style:none;
+}
+.menu ul li{
+	
+	float:right;
+	line-height:40px;
+	margin-right:40px;
+}
+.menu ul li a{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+.content{
+	width:100%;
+	height:750px;
+	border:1px solid #000;
+}
+.left{
+	width: 250px;
+	height: 500px;
+	float: left;
+}
+.danhsachsanpham ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+}
+.danhsachsanpham ul li{
+	margin-left:40px;
+	margin: 20px;
+}
+.danhsachsanpham a{
+	text-decoration: none;
+	color: #000000;
+}
+.danhsachsanpham a:hover{
+	text-decoration: underline;
+}
+.right{
+	width: 940px;
+	height: 700px;
+	/*border: 1px solid #20A4D3;*/
+	float: right;
+}
+.sanphamall ul{
+	width: 100%;
+	list-style: none;
+}
+.sanphamall ul li{
+	width: 200px;
+	height:auto;
+	border: 1px solid #20A4D3;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	width:auto;
+	height: 50px;
+	padding:5px;
+	border: 1px solid #000000;
+}
